@@ -1,0 +1,13 @@
+{
+  "name": "content",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "chokidar screens/* -c 'echo module.exports = { \"screens\": [1] } > ../ui/src/data-model.js'"
+  },
+  "devDependencies": {
+    "chokidar": "^2.0.3",
+    "chokidar-cli": "^1.2.0"
+  }
+}

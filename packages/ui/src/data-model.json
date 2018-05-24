@@ -1,0 +1,28 @@
+{
+  "screens": [
+    {
+      "name": "bananas",
+      "contents": [
+        "a",
+        "b",
+        "c"
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "flow_a": {
+        "screens": [
+          {
+            "name": "bananas",
+            "contents": [
+              "a",
+              "b",
+              "c"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
